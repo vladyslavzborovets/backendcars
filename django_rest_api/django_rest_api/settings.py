@@ -27,8 +27,6 @@ SECRET_KEY = 'django-insecure--!9qj5hb&ba9k@w-31-2hbg0a8i^j0$&-6@=bjau*9boltcl75
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -59,7 +57,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-ALLOWED_HOSTS = ['localhost', 'https://cars-back-end.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'cars-back-end.herokuapp.com']
 
 
 ROOT_URLCONF = 'django_rest_api.urls'
